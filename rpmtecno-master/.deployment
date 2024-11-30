@@ -1,0 +1,4 @@
+[config]
+SCM_DO_BUILD_DURING_DEPLOYMENT=true
+startupCommand = "npm run build && cp -r dist/* /home/site/wwwroot"
+
